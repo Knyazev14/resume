@@ -4,10 +4,9 @@
 	<meta charset="UTF-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link rel="stylesheet" href="css/style.min.css?_v=20220512150650">
+	<link rel="stylesheet" href="css/style.min.css">
 	<title>Главная</title>
 </head>
-
 <body>
 	<div class="wrapper">
 		<header class="header">
@@ -30,14 +29,14 @@
 							</div>
 							<ul class="menu__list">
 								<li class="menu__list-item"><a class="menu__list-link skills" href="#skills">Skills</a></li>
-								<li class="menu__list-item"><a class="menu__list-link projects" href="project.html">Projects</a></li>
+								<li class="menu__list-item"><a class="menu__list-link projects" href="#">Projects</a></li>
 								<li class="menu__list-item"><a class="menu__list-link special" href="">Special offer</a></li>
 							</ul>
 						</nav>
 					</div>
 					<div class="parallax__center">
 						<div class="logo">
-							<picture><source srcset="img/knyazev.webp" type="image/webp"><img class="logo-image" src="img/knyazev.jpg" alt="logotype"></picture>
+							<img class="logo-image" src="img/knyazev.jpg" alt="logotype">
 						</div>
 						<h1 class="parallax__job">HTML-верстальщик</h1>
 						<div class="parallax__name">Князев Артём</div>
@@ -118,16 +117,35 @@
 							</div>
 						</div>
 						<div class="project-box-btn">
-							<a href="project.html" class="project-btn">Go to projects</a>
+							<button  class="project-btn">Go to projects</button>
 						</div>					
 					</div>
 				</div>
 			</section>
+			<div class="project-page">
+				<div class="project-container">
+					<div class="gallery">
+						<div class="frame">
+							<div class="frame__content">
+								<div class="frame__media frame__media--left" style="background: url(img/la2.png) no-repeat; background-size: contain;"></div>
+							</div>
+						</div>
+						<div class="frame">
+							<div class="frame__content">
+								<div class="frame__media frame__media--right" style="background: url(img/metall.png) no-repeat; background-size: contain;"></div>
+							</div>
+						</div>
+						<div class="frame">
+							<div class="frame__content">
+								<div class="frame__media frame__media--left" style="background: url(img/sweet-shop2.png) no-repeat; background-size: contain;"></div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
 		</main>
-		<footer class="footer">
-</footer>
 	</div>
-	<script src="js/app.min.js?_v=20220512150650"></script>
+	<script src="js/app.min.js"></script>
 </body>
 
 </html>
